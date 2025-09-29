@@ -1,6 +1,6 @@
 # WorkOS Passport Starter Kit
 
-[![Tests](https://github.com/inmanturbo/homework-starter-kit/workflows/Tests/badge.svg)](https://github.com/inmanturbo/homework-starter-kit/actions)
+[![Tests](https://github.com/inmanturbo/homework-starter-kit/actions/workflows/tests.yml/badge.svg)](https://github.com/inmanturbo/homework-starter-kit/actions)
 <a href="https://herd.laravel.com/new?starter-kit=inmanturbo/homework-starter-kit"><img src="https://img.shields.io/badge/Install%20with%20Herd-fff?logo=laravel&logoColor=f53003" alt="Install with Herd"></a>
 
 A ready-to-use Laravel application that provides a self-hosted, WorkOS-compatible OAuth server using Laravel Passport. This starter kit gives you a complete authentication server that can replace WorkOS while maintaining full API compatibility.
