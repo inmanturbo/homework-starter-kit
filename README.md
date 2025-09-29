@@ -1,6 +1,7 @@
 # WorkOS Passport Starter Kit
 
 [![Tests](https://github.com/inmanturbo/homework-starter-kit/workflows/Tests/badge.svg)](https://github.com/inmanturbo/homework-starter-kit/actions)
+<a href="https://herd.laravel.com/new?starter-kit=inmanturbo/homework-starter-kit"><img src="https://img.shields.io/badge/Install%20with%20Herd-fff?logo=laravel&logoColor=f53003" alt="Install with Herd"></a>
 
 A ready-to-use Laravel application that provides a self-hosted, WorkOS-compatible OAuth server using Laravel Passport. This starter kit gives you a complete authentication server that can replace WorkOS while maintaining full API compatibility.
 
@@ -17,9 +18,38 @@ A ready-to-use Laravel application that provides a self-hosted, WorkOS-compatibl
 
 ## Quick Start
 
-### 1. Install Dependencies
+### Option 1: Using Laravel Herd (Easiest)
 
 ```bash
+# Create a new project using Herd
+herd new my-oauth-server --using="inmanturbo/homework-starter-kit"
+
+# Navigate to your project
+cd my-oauth-server
+
+# Your OAuth server is now available at https://my-oauth-server.test
+```
+
+### Option 2: Using Laravel Installer
+
+```bash
+# Install Laravel installer if you haven't already
+composer global require laravel/installer
+
+# Create a new project using this starter kit
+laravel new my-oauth-server --using="inmanturbo/homework-starter-kit"
+
+# Navigate to your project
+cd my-oauth-server
+```
+
+### Option 3: Manual Installation
+
+Clone this repository and install dependencies:
+
+```bash
+git clone https://github.com/inmanturbo/homework-starter-kit.git my-oauth-server
+cd my-oauth-server
 composer install
 npm install && npm run build
 ```
