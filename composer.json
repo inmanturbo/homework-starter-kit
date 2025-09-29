@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "inmanturbo/workos-passport-starter",
+    "name": "inmanturbo/homework-starter-kit",
     "type": "project",
     "description": "Self-hosted WorkOS-compatible OAuth server using Laravel Passport - starter kit.",
     "keywords": [
